@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "seismic-iridium-234716",
+  "private_key_id": "eb208473fe2bc7f643d75252b5e5e012fa305ebd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOr+gT6B3kmVtW\nSELpxpOEEMGidvpbQMLdIDihgiHASDdGiW3PY82eWI/0RGEj8k06DF3pz5MyNjQq\nGnCVEgqv7Wl6DdiYJ9AyfhgXw0mK3m09A8PtFE26wSfvMhXi+VkL8TwWNDGO8FiO\nv/mT1c4nChKY09CM216cl+0ccZPZsen/6hFrwqlpJh9mJ1Lvc8PBIcZhPruCJnc5\nU0EJJR7Muc7tmwo1obbYIzqByXnJlpL5PmOi4QtSx8fGaxlENbdHvDUZbfZXTOip\nwmQvNszPYZrIohONK7wVlQIEu/yBohJuLWT/H7HfhFN9Y2nkR7ZQ3AY4iXfBXX4H\nC8Dqb7G1AgMBAAECggEAHC/GFQznIrk9SQeCxJHVpUGJvqe+Hbq3uGNABdqS0r+m\ndiKgzJMeQ/Vs8FFw8++D06JDHnM17jeRJprDdrjmpzZX15LS0nE/hdtHWtpBicQq\nnpMIYakOrqTP1uF8NZ9uot/Lo3WLuqQRV6pblWsneZB4l8nvG36BKRbY+bONh7bq\nVwbcwF51jsnhbr/SSYFwMSlEIe3OnIsZVTDyAzVsmn2dQUjzllKMPem9h4i1HOgm\n5GOi3PF7L0LZazpwVk+a1dkxiFbKaWxunjBwgID+hzJH6Q06xn9LfHveyxInahlC\n++nVd5TsQDxMrxlZMiL2Z+qCuIQEYvpIN0LkCnuR4QKBgQDwZAfecNhcK0IbPT9i\nVWeTByCe+Qy+hBQcs+0d+eRmhNKHMXuU8F0bnokb1bTygZXvel49fu14KXzaXgeN\nDB6fY9+rmICPAJf63FOlN3IY198P79W04/C6pwSrL5Al2II9XQb6rbKjRWQ/PoaC\n6JoeXeLTfAL7A2eQ0WlAgchw0QKBgQDcG6CODzP5e0LGxfqZlpNH9BgsvlAxBwRH\naFxoHULfnFLQjX/5vP5MpKDhnGt4nNJ8UxuTpEc1tJWYb14ahsZxmjf0r6ZVEoo/\nxrp5OQ+eaEFygTtIJBDFfNi93VJg6jYZolk0EemaZ9589En7aACzduvjsb+l3Baw\nZf77eoYLpQKBgBleNQZgWjS/y+Yb/IhgAuIdKnAcUB/6yDSPOEKlkFjRQ3ZI3oXF\nJ842WLm7P7Enw67V9wP+VQkNN8PDkIBt+v1PCNeO7GIq6d7rSVhyFXRRs5R29tJ0\nC39nCLMX/dpAkt3u50Gk+ukH9aBG9OLzsO/rcHho6debcF5z+ut3xrNBAoGBAMgJ\nj7Qr2veMb1bJTQRS1Y2aKHJZj/XOw7PGA91XYpRotNb3Emy8t3yeTdxc1Utrctws\nh655qYIEmcRMyoBfJnDOULZfAFLmo6BsksJi+m/jnj9bda4NoPRqj2yWfSy5Duvj\nISDyepSqe4iiV65VifWQSbfIrj0ltbUhLUgNxU9FAoGAMgW2AHfyoUQoWSv0+0fA\n/3X+maHxkPNuG4JX/qqu7V5W2GWkgnbFFaocOdIe5bdHsmty8XwRacgraTfa+u5B\nZmuRx548eDMxLcbX0v1QLm9SbQzSJ5aV70qDiUavoj3GAbhB8rVuvfBKheiWKafi\n+q6mXR/ccDUhSmylLInv5j0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "shahzadservice@seismic-iridium-234716.iam.gserviceaccount.com",
+  "client_id": "114912060955764099300",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shahzadservice%40seismic-iridium-234716.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
