@@ -9,10 +9,12 @@ google-auth-oauthlib==1.0.0
 googleapis-common-protos==1.59.1
 googlemaps==4.10.0
 gspread==5.10.0
+gunicorn==21.1.0
 httplib2==0.22.0
 idna==3.4
 oauth2client==4.1.3
 oauthlib==3.2.2
+packaging==23.1
 protobuf==4.23.4
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
