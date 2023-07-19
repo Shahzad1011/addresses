@@ -1,9 +1,13 @@
+from flask import Flask
+
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import googlemaps
 import math
 import json
 import requests
+
+app = Flask(__name__)
 
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371  # Radius of the Earth in kilometers
@@ -22,7 +26,8 @@ def haversine(lat1, lon1, lat2, lon2):
     distance = R * c
     return distance
 
-def run_script():
+@app.route('/')
+def index():
     # Set up Google Sheets API credentials
     scope = ['https://www.googleapis.com/auth/spreadsheets.readonly']
     creds_url = 'https://raw.githubusercontent.com/Shahzad1011/addresses/main/creds.json'
@@ -38,7 +43,7 @@ def run_script():
     addresses = worksheet.col_values(1)[1:]  # Fetch values from column A starting from row 2
 
     # Set up Google Maps Geocoding API client
-    gmaps = googlemaps.Client(key='AIzaSyCoM0UnGPiQeY3Y_dwLMqhAqWnEhCML5ss')
+    gmaps = googlemaps.Client(key='AIzaSyCoM0UnGPiQeY3Y_dwLMqhAqWnEhCML5ss')  # Replace with your API key
 
     nearest_addresses = []
     for address in addresses:
@@ -58,9 +63,7 @@ def run_script():
             # Get the ten nearest addresses
             nearest_addresses.extend([place['vicinity'] for place in nearby_places[:10]])
 
-    return nearest_addresses
+    return '<br>'.join(nearest_addresses)
 
-# Run the script
-result = run_script()
-for address in result:
-    print(address)
+if __name__ == '__main__':
+    app.run()
