@@ -2,6 +2,8 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import googlemaps
 import math
+import json
+import requests
 
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371  # Radius of the Earth in kilometers
@@ -23,8 +25,10 @@ def haversine(lat1, lon1, lat2, lon2):
 def run_script():
     # Set up Google Sheets API credentials
     scope = ['https://www.googleapis.com/auth/spreadsheets.readonly']
-    creds_path = 'https://raw.githubusercontent.com/Shahzad1011/addresses/main/creds.json'
-    creds = ServiceAccountCredentials.from_json_keyfile_name(creds_path, scope)
+    creds_url = 'https://raw.githubusercontent.com/Shahzad1011/addresses/main/creds.json'
+    creds_json = requests.get(creds_url).text
+    creds_dict = json.loads(creds_json)
+    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
     client = gspread.authorize(creds)
 
     # Fetch addresses from Google Sheet
